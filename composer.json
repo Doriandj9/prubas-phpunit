@@ -1,0 +1,26 @@
+{
+    "name": "calculator/init",
+    "description": "Es una programa que es una calculadora pero para pruebas",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Calculator\\Init\\": "src/"
+        }
+    },
+    "autoload-dev": {
+       "psr-4": {
+        "Calculator\\Init\\Test\\": "tests/"
+       } 
+    },
+    "authors": [
+        {
+            "name": "DorianA",
+            "email": "dorian9armijos@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "9.5.0"
+    }
+}
