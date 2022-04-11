@@ -7,9 +7,9 @@ build:
     coverage:
       tests:
         override:
-          - command: XDEBUG_MODE=coverage vendor/bin/phpunit --stop-on-error --stop-on-failure --coverage-clover phpunit.coverage.xml
+          - command: XDEBUG_MODE=coverage vendor/bin/phpunit --stop-on-error --stop-on-failure --coverage-clover phpunit.coverage.xml 
             coverage:
-              file: coverage.xml
+              file: phpunit.coverage.xml
               format: clover
     analysis:
       tests:
