@@ -2,7 +2,8 @@
 
 namespace Calculator\Init;
 
-class Calculator{
+class Calculator
+{
     private $numUno;
     private $numDos;
 
